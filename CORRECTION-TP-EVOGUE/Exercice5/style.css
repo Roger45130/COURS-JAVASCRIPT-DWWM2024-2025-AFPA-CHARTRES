@@ -1,0 +1,22 @@
+@import url(../../01-ENTRAINEMENT/CSS/reset.css);
+
+html, body {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    width: 1000px;
+    border: 2px solid #000;
+    margin: 50px auto;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    border-radius: 1rem;
+    background-color: rgb(110, 202, 110);
+    transition: all 0.5s;
+}

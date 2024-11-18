@@ -1,0 +1,44 @@
+@import url(reset.css);
+
+html, body {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 1rem;
+}
+
+.title__h1{
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.title__h2{
+    font-size: 1.5rem;
+    padding: 1rem;
+    background-color: #3081F1;
+    color: #fff;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.Vert {
+    color: green;
+    font-size: 1.25rem;
+}
+
+.Jaune {
+    color: gold;
+    font-size: 1.25rem;
+}
+
+.Rouge{
+    color: red;
+    font-size: 1.25rem;
+}
+
+td{
+    border: 1px solid #000;
+    padding: 1rem;
+}

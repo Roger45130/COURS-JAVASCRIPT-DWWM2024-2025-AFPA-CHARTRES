@@ -1,0 +1,259 @@
+@import url(../../01-ENTRAINEMENT/CSS/reset.css);
+
+html, body {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.buttonDropdown {
+    width: 200px;
+    border: none;
+    background-color: rgb(60, 60, 204);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem;
+    border-radius: 0.75rem;
+    cursor: pointer;
+}
+
+.dropdown {
+    width: 200px;
+    min-height: 200px;
+}
+
+.dropdown__menu {
+    width: 200px;
+    background-color: #4a4a4a;
+    margin-top: 4px;
+    border-radius: 0.5rem; 
+    padding: 0.25rem 0;
+}
+
+.menu__item {
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.menu__item:hover {
+    background-color: #2d2d2d;
+}
+
+.dropdown__item {
+    color: #fff;
+    text-decoration: none;
+}
+
+.dropdown__List {
+    width: 200px;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+
+.toggle__dropdown {
+    height: 300px;
+}
+
+/* header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #686868;
+    width: auto;
+    height: 200px;
+    padding: 0 20px;
+}
+
+header img {
+    height: 100px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar__item {
+    text-decoration: none;
+    color: #fff; 
+    font-weight: bold;
+}
+
+.menu__navbarList {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 15px;
+    transition: all 0.5s;
+}
+
+.toggle-menu {
+    width: auto;
+    display: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+#recherche {
+    border: 1px solid #d9d9d9;
+    border-radius: 0.25rem;
+    padding: 5px;
+    font-weight: bold;
+}
+
+/* Tablette */
+
+/* @media (max-width: 768px) {
+    header {
+        flex-direction: row; 
+        height: auto;
+    }
+
+    header img {
+        order: -1; 
+    }
+
+    .menu__navbarList {
+        display: none; 
+        flex-direction: column;
+        align-items: center; 
+        position: absolute;
+        top: 101px; 
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #686868;
+        padding: 20px;
+        border-radius: 8px;
+        width: 100%; 
+        max-height: 5px;
+        overflow: hidden;
+        transition: all 0.5s;
+    }
+
+    .menu__navbarList.show {
+        display: flex;
+        max-height: 400px; 
+        transition: all 0.5s;
+    }
+
+    .toggle-menu {
+        width: auto;
+        display: block;
+        text-align: center;
+        border: 2px solid #fff;
+        border-radius: 0.5rem;
+        padding: 10px;
+        
+    }
+} */
+
+
+/* Téléphone portable *//*
+@media (max-width: 480px) {
+    header img {
+        height: 80px;
+    }
+
+    .navbar__item {
+        font-size: 14px;
+    }
+
+    .menu__navbarList {
+        display: none; 
+        flex-direction: column;
+        align-items: center; 
+        position: absolute;
+        top: 81px; 
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #686868;
+        padding: 10px;
+        border-radius: 0.5rem;
+        width: 100%; 
+        max-height: 0;
+        overflow: hidden;
+        gap: 5px;
+        transition: all 0.5s;
+    }
+
+    .menu__navbarList.show {
+        display: flex;
+        max-height: 400px; 
+        transition: all 0.5s;
+    }
+
+    .toggle-menu {
+        display: block;
+        text-align: center;
+        border: 2px solid #fff;
+        border-radius: 0.5rem;
+        padding: 10px;
+        
+    }
+} */
+
+/* ---- CSS NAV ---- */
+
+.AFPA__Logo {
+    width: 100px;
+    padding-left: 1rem;
+}
+
+.nav {
+    background-color: #808080;
+    padding: 1rem 0;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.icone__burger {
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none !important;
+}
+
+.primary__list {
+    display: flex;
+    margin-right: 1rem;
+    gap: 2rem;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 0.25rem;
+}
+
+@media screen and (max-width: 768px) {
+    .icone__burger {
+        display: block !important;
+    }
+
+    .nav__block {
+        position: absolute;
+        bottom: -130px;
+        background-color: #808080;
+    }
+
+    .primary__list {
+        flex-direction: column;
+    }
+}

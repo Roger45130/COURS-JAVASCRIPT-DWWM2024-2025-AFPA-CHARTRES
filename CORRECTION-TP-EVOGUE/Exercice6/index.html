@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>CORRECTION EVOGUE | EXERCICE 6 | MENU DEROULANT</title>
+</head>
+<body>
+    <header>
+        <!-- <img src="./Asset/Picture/AFPA__Logo.png" class="AFPA__Logo" alt="Logo de l'AFPA">
+        <nav class="navbar">
+            <ul class="menu__navbarList">
+                <li><a href="#" class="navbar__item">Home</a></li>
+                <li><a href="#" class="navbar__item">A propos</a></li>
+                <li><a href="#" class="navbar__item">Boutique</a></li>
+                <li><a href="#" class="navbar__item">Panier</a></li>
+                <li><a href="#" class="navbar__item">Contact</a></li>
+            </ul>
+            <div class="toggle-menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav> -->
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="list__item">
+                    <a href="" class="nav__link">
+                        <img src="./Asset/Picture/AFPA__Logo.png" class="AFPA__Logo" alt="logo">
+                    </a>
+                </li>
+                <div class="nav__block">
+                    <div class="primary__list">
+                        <li class="list__item">
+                            <a href="" class="nav__link">Home</a>
+                        </li>
+                        <li class="list__item">
+                            <a href="" class="nav__link">A propos</a>
+                        </li>
+                        <li class="list__item">
+                            <a href="" class="nav__link">Boutique</a>
+                        </li>
+                        <li class="list__item">
+                            <a href="" class="nav__link">Panier</a>
+                        </li>
+                        <li class="list__item">
+                            <a href="" class="nav__link">Contact</a>
+                        </li>
+                    </div>
+                </div>
+                <i class="fa-solid fa-bars icone__burger"></i>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="dropdown">
+            <button class="buttonDropdown" onclick="toggleDropdown(this);">
+                <h1 class="title__dropdown">Menu Déroulant</h1>
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="dropdown__List">
+                <ul class="dropdown__menu">
+                    <li class="menu__item">
+                        <a href="#"class="dropdown__item">Lien 1</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#"class="dropdown__item">Lien 2</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#"class="dropdown__item">Lien 3</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="recherche">
+            <input type="text" name="recherche" id="recherche" placeholder="Rechercher ...">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
